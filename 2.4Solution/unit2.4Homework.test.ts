@@ -1,11 +1,11 @@
 import {
-    Builder,
-    By,
-    Capabilities,
-    until,
-    WebDriver,
-    WebElement,
-    Key,
+    Builder,  // build a new instant of chrome when used with chromedriver
+    By,   //allows tester to excess elemenrs on the web page using the dom or the doc object
+    Capabilities, // allows tester to use chrome capabilities with the browser
+    until, // makes the automation wait until the element is found accaunting for 
+    WebDriver, // what we use to accessthe DOM in order to complete tasks
+    WebElement, //samthong as WebDriver just element specific
+    Key, // or keys is just the keys on a keyboard this allows for typing in inpus or hitting common keys
 } from "selenium-webdriver";
 
 const chromedriver = require("chromedriver");
