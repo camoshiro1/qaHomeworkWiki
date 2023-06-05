@@ -1,4 +1,4 @@
-import { SpecPage } from "./SpecPage";
+import { SpecPage } from "./specPage";
 const chromedriver = require("chromedriver");
 import { WebDriver, Builder, Capabilities } from "selenium-webdriver";
 
